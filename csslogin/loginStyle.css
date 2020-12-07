@@ -1,0 +1,418 @@
+/* CSS Document */
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("../css/images/background2.jpg");
+
+  height: 120%;
+	width: 100%;
+  
+
+  background-position: center;
+  background-size: cover;
+}
+	
+
+
+/*-------------------------------------------------------*/
+
+.menu {
+	background-image: url("../images/header.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height: 200px;
+	
+}
+
+.menu #logo {
+	float: right;
+	height: 30px;
+	padding-top: 45px;
+	padding-right: 60px;
+	
+}
+
+.menu > ul {
+	margin: 0;
+	padding: 35px;
+	float: right;
+	list-style-type: none;
+	
+}
+
+.menu > ul > li {
+	float: right;
+	padding-top: 5%;
+	
+}
+
+.menu-item{
+	display: inline-block;
+	padding: 20px 30px;
+	padding-top: 25px;
+	height: 5px;
+	line-height: 0%;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	
+}
+
+.menu-item:hover {
+	color: #ce8029;
+	background-color: #eaf3e8;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "HSN_Sara";
+}
+
+form.srch input[type=text] {
+	padding: 0px 10px;
+	float: right;
+  font-size: 17px;
+  border: 1px solid #4EA86B;
+  width: 79%;
+  background: #f1f1f1;
+	text-align: right;
+	border-radius: 8px;
+}
+
+form.srch button {
+  padding: 1px;
+  float: left;
+  width: 20%;
+  background: #ce8029;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-right: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+	
+	
+}
+
+form.srch button:hover {
+  cursor: pointer;
+  background-color: #DD9E58;
+  transition: all 0.4s ease-out;
+}
+
+form.srch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav .asrch{
+	margin-left: 4%;
+	margin-right: 55%;
+	padding: 15px 130px;
+	padding-top: 4%;
+	
+}
+
+/*--------------------------STYLING SUB---------------------------*/
+
+.sub-contect {
+	position: absolute;
+	top: 95px;
+	overflow: hidden;
+	background-color: #eaf3e8;
+	max-height: 0;
+	
+}
+
+.sub-contect a {
+	color: #ce8029;
+	text-decoration: none;
+	float:right;	
+}
+
+.sub-drop {
+	padding: 0px;	
+}
+
+.sub-drop ul {
+	width: 136px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.sub-drop ul li a{
+	display: inline-block;
+	padding: 6px 14px;
+	padding-left: 0px;
+}
+
+.sub-drop ul li:hover {
+	color: #56493a;
+}
+
+
+/*--------------------------CONTROLING---------------------------*/
+
+.menu-item:focus{
+	background-color: #eaf3e8;
+	color: #ce8029;	
+}
+
+.menu-item:focus ~ .sub-contect{
+	max-height: 400px;
+	transition: max-height 0.6s ease-in;
+	webkit-transition: max-height 0.6s ease-in;
+	-moz-transition: max-height 0.6s ease-in;
+}
+
+/*--------------------------CONTENT---------------------------*/
+
+.container {
+  position: absolute;
+  right: 0;
+  margin: 200px;
+  max-width: 420px;
+  padding: 30px;
+  background-color: white;
+  text-align: right;
+	border-radius: 10px;
+	color: #469861;
+	box-shadow: 0 0 100px 0px black;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  text-align: right;
+	border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4EA86B;
+  color: white;
+  padding: 16px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+.or{
+	text-align: center;
+	padding:400px 0px 0px 0px;
+	color: white;
+	font-size: 20px;	 
+}
+
+.or h1{
+	animation-duration: 1s; 
+	animation-iteration-count: 400;
+   display: inline-block;
+}
+
+
+.container2 {
+  position: absolute;
+  left: 100;
+  margin: 200px 270px;
+  max-width: 420px;
+  padding: 30px 30px 60px 30px;;
+  background-color: white;
+  text-align: right;
+	border-radius: 10px;
+	color: #469861;
+	box-shadow: 0 0 100px 0px black;
+}
+
+/* Full-width input fields */
+.col {
+	margin:0 40px 0 40px;
+	
+}
+
+.col:focus {
+  background-color: #ddd;
+  outline: none;
+	
+}
+
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+	padding:15px 90px 15px 90px;
+text-decoration: none;
+border-radius: 50px;	
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+	padding:15px 90px 15px 90px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+	padding:15px 90px 15px 90px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+
+/*-------------------------------------------------------*/
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "HSN_Sara";
+}
+
+#navbar {
+	background-image: url("../images/menu2.png");
+	height: 80px;
+    background-position: center;
+	background-size: cover;
+  position: fixed;
+  width: 100%;
+  display: block;
+  transition: top 1.5s;
+}
+
+#navbar a {
+  float: right;
+	width: 22%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  background-color: #51A76A;
+  color: #EAF4E9;
+}
+
+
+
+/*--------------------------FOOTER---------------------------*/
+
+.bg1 {
+  background-image: url("../css/images/footer.jpg");
+
+  height: 40%;
+	width: 100%;
+
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 4rem;
+	margin: 0;
+}
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+
+.nfooter {
+	width: 80%;
+	height:40vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	text-align: right;
+	
+}
+
+.footer-headin {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10rem;
+	margin-top: 5rem;
+	
+}
+
+.footer-headin h2 {
+	margin-bottom: 1rem;
+	
+}
+
+.footer-headin a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0.3rem;
+}
+
+.footer-headin a:hover{
+	color: #FFC162;
+}
+
+.footer-email-form{
+	margin-top: 5rem;
+	
+}
+
+#footer-email {
+	width: 210px;
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	padding-right: 1rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	text-align: right;
+	margin-top: 1rem;
+}
+
+#footer-email-btn{
+	width: 50px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #CE8029;
+	color: white;
+	outline: none;
+	border: none;
+}
+
+#footer-email-btn:hover{
+	cursor: pointer;
+	background-color: #DD9E58;
+	transition: all 0.4s ease-out;
+}
+
