@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" content="width=device-width, initial-scale=1">
+<title>هَبَّة - أختيار خطة</title>
+		<link rel="stylesheet" href="cssindex/index1style.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	
+</head>
+ <body>
+<div class="bg">
+	
+ <header>
+	 
+	 <nav class="menu">
+	       <div id="logo">
+	         <img  src="images/logo.png" alt="logo" height="100">
+           </div>
+		 
+		   <ul>
+		       <li><a class="menu-item"  href="index.html">الصفحة الرئيسية</a></li>
+			   <li><a class="menu-item"  href="login.html">الإشتراك</a>
+			   </li>
+			   <li><a class="menu-item"  href="about-us.html">من نحن؟</a></li>
+			  
+		   </ul>
+		   <div class="asrch">
+			   <form class="srch" action="/action_page.php">
+			    <button type="بحث">إبحث</button>
+               <input type="text" placeholder="...بحث" name="search2">
+               </form>
+           </div>
+	 </nav>
+	 
+ </header>
+	
+ <section>
+	<div class="title">
+	 <h1 class="animate__animated animate__fadeInUp">أختيار خطة سياحية</h1>
+	 </div>	
+</section>	
+	
+<content>
+	<div class="all">
+	<a class="sngl" href="#">
+	<img alt="single" src="cssindex/شباب.png" width="20%"></a>
+     
+	<a class="fml" href="#">
+	<img alt="single" src="cssindex/عائلة.png" width="20%">
+	</a>
+	
+	<a class="cbl" href="#">
+	<img alt="single" src="cssindex/زوجين.png" width="20%">
+	</a>
+	</div>
+</content>		
+	</div>
+	
+	
+<div class="bg1">
+ <footer>
+  <div class="cfooter">
+    <div class="nfooter">
+	  <div class="footer-email-form">
+		   <h2>إشترك في القائمة البريدية</h2>
+		  <input type="submit" value="إشترك" id="footer-email-btn">
+			<input type="email" placeholder="البريد الإلكتروني" id="footer-email">
+	  </div>
+	  <div class="footer-headin help">
+	       <h2>الدعم والمساعدة</h2>
+	       <a href="#">الأسئلة والإستفسارات</a>
+		   <a href="#">البلاغ عن مشكلة</a>
+		   <a href="#">طلب مساعدة</a>
+	   </div> 
+	   <div class="footer-headin call">
+	       <h2>تواصل معنا</h2>
+	       <a href="#"><img src="images/call.png" alt="call" width="30"> <img src="images/email.png" alt="call" width="30"> <img src="images/tweet.png" alt="call" width="30"> <img src="images/insta.png" alt="call" width="30"></a>
+	   </div>
+	   <div class="footer-headin us">
+	       <h2>من نحن؟</h2>
+	       <a href="about-us.html">قصتنا</a>
+		   <a href="about-us.html">رؤيتنا</a>
+	   </div>
+	  </div>
+    </div>
+ </footer>	
+	
+</div>
+	
+	<nav>
+	  <div id="navbar">
+  <a href="index.html">الصفحة الرئيسية</a>
+  <a href="login.html">الإشتراك</a>
+  <a href="about-us.html">من نحن؟</a>
+  <a href="#">الدعم والمساعدة</a>
+      </div>
+    </nav>
+	
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+	
+
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,384 @@
+/* CSS Document */
+
+body, html {
+  height: 140%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("background.jpg");
+
+  height: 100%; 
+  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	
+
+
+/*-------------------------------------------------------*/
+
+.menu {
+	background-image: url("../images/header.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height: 200px;
+	
+}
+
+.menu #logo {
+	float: right;
+	height: 30px;
+	padding-top: 45px;
+	padding-right: 60px;
+	
+}
+
+.menu > ul {
+	margin: 0;
+	padding: 35px;
+	float: right;
+	list-style-type: none;
+	
+}
+
+.menu > ul > li {
+	float: right;
+	padding-top: 5%;
+	
+}
+
+.menu-item{
+	display: inline-block;
+	padding: 20px 30px;
+	padding-top: 25px;
+	height: 5px;
+	line-height: 0%;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	
+}
+
+.menu-item:hover {
+	color: #ce8029;
+	background-color: #eaf3e8;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "HSN_Sara";
+}
+
+form.srch input[type=text] {
+	padding: 0px 10px;
+	float: right;
+  font-size: 17px;
+  border: 1px solid #4EA86B;
+  width: 79%;
+  background: #f1f1f1;
+	text-align: right;
+	border-radius: 8px;
+}
+
+form.srch button {
+  padding: 1px;
+  float: left;
+  width: 20%;
+  background: #ce8029;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-right: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+	
+	
+}
+
+form.srch button:hover {
+  cursor: pointer;
+  background-color: #DD9E58;
+  transition: all 0.4s ease-out;
+}
+
+form.srch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav .asrch{
+	margin-left: 4%;
+	margin-right: 55%;
+	padding: 15px 130px;
+	padding-top: 4%;
+	
+}
+/*--------------------------STYLING SUB---------------------------*/
+
+.sub-contect {
+	position: absolute;
+	top: 95px;
+	overflow: hidden;
+	background-color: #eaf3e8;
+	max-height: 0;
+	
+}
+
+.sub-contect a {
+	color: #ce8029;
+	text-decoration: none;
+	float:right;	
+}
+
+.sub-drop {
+	padding: 0px;	
+}
+
+.sub-drop ul {
+	width: 136px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.sub-drop ul li a{
+	display: inline-block;
+	padding: 6px 14px;
+	padding-left: 0px;
+}
+
+.sub-drop ul li a:hover {
+	color: #56493a;
+}
+
+
+/*--------------------------CONTROLING---------------------------*/
+
+.menu-item:focus{
+	background-color: #eaf3e8;
+	color: #ce8029;	
+}
+
+.menu-item:focus ~ .sub-contect{
+	max-height: 400px;
+	transition: max-height 0.6s ease-in;
+	webkit-transition: max-height 0.6s ease-in;
+	-moz-transition: max-height 0.6s ease-in;
+}
+
+/*--------------------------CONTENT---------------------------*/
+.abha {
+	text-align: right;
+	padding: 90px 180px 0 60px;
+	font-size: 25px;
+	color: #ce8029;
+}
+
+.text2{ 
+	width: 100%;
+	text-align: right;
+	position: absolute;
+  left: 40px;
+  margin: 70px 200px;
+  max-width: 1000px;
+  padding: 50px;
+  background-color: #CE8029;
+	border-radius: 10px;
+	color: #FFFFFF;
+	box-shadow: 0 0 30px 0px gray;
+	font-size: 20px;
+}
+
+.ma h1 {
+	text-align: center;
+	margin-top: 550px;
+	color: #56493a;
+}
+
+.all{
+	margin: 100px 0px 0px 150px;
+}
+.sngl {
+	
+  padding:0 15px ;
+	color: #469861;
+}
+
+.fml {
+	
+	
+  padding:020px;
+	color: #469861;
+}
+
+.cbl {
+	 
+  padding:0 15px ;
+	color: #469861;
+}
+
+.sngl img:hover {
+  animation: shake 1.3s;
+  animation-iteration-count: infinite;
+}
+
+.fml img:hover {
+  animation: shake 1.3s;
+  animation-iteration-count: infinite;
+}
+
+.cbl img:hover {
+  animation: shake 1.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+/*-------------------------------------------------------*/
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "HSN_Sara";
+}
+
+#navbar {
+	background-image: url("../images/menu2.png");
+	height: 80px;
+    background-position: center;
+	background-size: cover;
+  position: fixed;
+  width: 100%;
+  display: block;
+  transition: top 1.5s;
+}
+
+#navbar a {
+  float: right;
+	width: 22%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  background-color: #51A76A;
+  color: #EAF4E9;
+}
+
+
+
+/*--------------------------FOOTER---------------------------*/
+
+.bg1 {
+  background-image: url("../css/images/footer.jpg");
+
+  height: 10%; 
+
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 19rem;
+	margin: 0;
+	
+}
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+
+.nfooter {
+	width: 80%;
+	height:40vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	text-align: right;
+	
+}
+
+.footer-headin {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10rem;
+	margin-top: 5rem;
+	
+}
+
+.footer-headin h2 {
+	margin-bottom: 1rem;
+	
+}
+
+.footer-headin a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0rem;
+}
+
+.footer-headin a:hover{
+	color: #FFC162;
+}
+
+.footer-email-form{
+	margin-top: 5rem;
+	
+}
+
+#footer-email {
+	width: 210px;
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	padding-right: 1rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	text-align: right;
+	margin-top: 1rem;
+}
+
+#footer-email-btn{
+	width: 50px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #CE8029;
+	color: white;
+	outline: none;
+	border: none;
+}
+
+#footer-email-btn:hover{
+	cursor: pointer;
+	background-color: #DD9E58;
+	transition: all 0.4s ease-out;
+}

@@ -1,0 +1,519 @@
+/* CSS Document */
+
+body, html {
+  height: 140%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("background.jpg");
+
+  height: 100%; 
+  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	
+
+
+/*-------------------------------------------------------*/
+
+.menu {
+	background-image: url("../images/header.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height: 200px;
+	
+}
+
+.menu #logo {
+	float: right;
+	height: 30px;
+	padding-top: 45px;
+	padding-right: 60px;
+	
+}
+
+.menu > ul {
+	margin: 0;
+	padding: 35px;
+	float: right;
+	list-style-type: none;
+	
+}
+
+.menu > ul > li {
+	float: right;
+	padding-top: 5%;
+	
+}
+
+.menu-item{
+	display: inline-block;
+	padding: 20px 30px;
+	padding-top: 25px;
+	height: 5px;
+	line-height: 0%;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	
+}
+
+.menu-item:hover {
+	color: #ce8029;
+	background-color: #eaf3e8;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "HSN_Sara";
+}
+
+form.srch input[type=text] {
+	padding: 0px 10px;
+	float: right;
+  font-size: 17px;
+  border: 1px solid #4EA86B;
+  width: 79%;
+  background: #f1f1f1;
+	text-align: right;
+	border-radius: 8px;
+}
+
+form.srch button {
+  padding: 1px;
+  float: left;
+  width: 20%;
+  background: #ce8029;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-right: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+	
+	
+}
+
+form.srch button:hover {
+  cursor: pointer;
+  background-color: #DD9E58;
+  transition: all 0.4s ease-out;
+}
+
+form.srch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav .asrch{
+	margin-left: 4%;
+	margin-right: 55%;
+	padding: 15px 130px;
+	padding-top: 4%;
+	
+}
+/*--------------------------STYLING SUB---------------------------*/
+
+.sub-contect {
+	position: absolute;
+	top: 95px;
+	overflow: hidden;
+	background-color: #eaf3e8;
+	max-height: 0;
+	
+}
+
+.sub-contect a {
+	color: #ce8029;
+	text-decoration: none;
+	float:right;	
+}
+
+.sub-drop {
+	padding: 0px;	
+}
+
+.sub-drop ul {
+	width: 136px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.sub-drop ul li a{
+	display: inline-block;
+	padding: 6px 14px;
+	padding-left: 0px;
+}
+
+.sub-drop ul li a:hover {
+	color: #56493a;
+}
+
+
+/*--------------------------CONTROLING---------------------------*/
+
+.menu-item:focus{
+	background-color: #eaf3e8;
+	color: #ce8029;	
+}
+
+.menu-item:focus ~ .sub-contect{
+	max-height: 400px;
+	transition: max-height 0.6s ease-in;
+	webkit-transition: max-height 0.6s ease-in;
+	-moz-transition: max-height 0.6s ease-in;
+}
+
+/*--------------------------CONTENT---------------------------*/
+
+.title {
+	background-image: url("عمل خطه.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	padding: 16% 5%;
+	text-align: center;
+	
+}
+
+.title h1 {
+	color: white;
+	font-size: 60px;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	
+}
+
+.go h1{
+	color: #564C43;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.all{
+	
+	margin: 100px 0 0 0;
+	padding: 0% 0% 0% 12%;
+	display:flex;
+	
+}
+
+
+
+.all1{
+	
+	margin: 70px 0 0 0;
+	padding: 0% 0% 0% 16%;
+	display:flex;
+
+}
+
+.text {
+	padding: 6px 0 0 8px;
+	color: #564C43;
+	display:flex;
+	text-align: right;
+	
+
+}
+
+.text1 {
+	padding: 0 0% 0 5%;
+	color: #564C43;
+	display:flex;
+	text-align: right;
+    margin-left: 5%;
+}
+
+
+.o {
+	display: flex;
+	padding: 0px 190px 0px 0px;
+	margin: 0 0% 0 0%;
+	color: #564C43;
+	
+}
+
+.o1 {
+	display: flex;
+	padding: 0px 30% 0px 0px;
+	margin: 0 0% 0 0%;
+	color: #564C43;
+	
+	
+
+}
+
+.cho {
+	padding: 0.5%;
+
+}
+
+
+.cho select {
+		border: none;
+  border-right: none;
+ border-radius: 10%;
+color: #564C43;	
+	padding-left: 10%;
+	font-size: 16px;
+}
+
+
+.cho select:hover{
+color: #CE8029;	
+		
+}
+
+.cho1 select {
+		border: none;
+  border-right: none;
+ border-radius: 10%;
+color: #564C43;	
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 16px;
+	margin:0 0 0 100%;
+	
+}
+
+.cho1 select:hover{
+color: #CE8029;	
+		
+}
+
+
+/* The container */
+.container {
+  display:block;
+  position: relative;
+  padding:0 30px 0 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  height: 15px;
+  width: 15px;
+  background-color: #F8F8F8;
+  box-shadow: 0 0 1px 1px #564C43;
+  border-radius: 50%;
+ 
+	
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #F6E5D2;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #4EA86B;
+	
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 4px;
+	left: 3.4px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: white;
+	-webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.next {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	background-color: #50A260;
+	padding: 0px 20px;
+	margin: 8% 0 0 45%;
+	border-radius: 10%;
+	
+}
+
+.next:hover{
+	color: #fff;
+	background-color: #CE8029;
+	 box-shadow: 0 0 30px 1px #F6E5D2 ;
+}
+
+.next a {
+	 text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+/*-------------------------------------------------------*/
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "HSN_Sara";
+}
+
+#navbar {
+	background-image: url("../images/menu2.png");
+	height: 80px;
+    background-position: center;
+	background-size: cover;
+  position: fixed;
+  width: 100%;
+  display: block;
+  transition: top 1.5s;
+}
+
+#navbar a {
+  float: right;
+	width: 22%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  background-color: #51A76A;
+  color: #EAF4E9;
+	
+}
+
+
+
+/*--------------------------FOOTER---------------------------*/
+
+.bg1 {
+  background-image: url("../css/images/footer.jpg");
+
+  height: 10%; 
+
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 19rem;
+	margin: 0;
+	
+}
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+
+.nfooter {
+	width: 80%;
+	height:40vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	text-align: right;
+	
+}
+
+.footer-headin {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10rem;
+	margin-top: 5rem;
+	
+}
+
+.footer-headin h2 {
+	margin-bottom: 1rem;
+	
+}
+
+.footer-headin a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0rem;
+}
+
+.footer-headin a:hover{
+	color: #FFC162;
+}
+
+.footer-email-form{
+	margin-top: 5rem;
+	
+}
+
+#footer-email {
+	width: 210px;
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	padding-right: 1rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	text-align: right;
+	margin-top: 1rem;
+}
+
+#footer-email-btn{
+	width: 50px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #CE8029;
+	color: white;
+	outline: none;
+	border: none;
+}
+
+#footer-email-btn:hover{
+	cursor: pointer;
+	background-color: #DD9E58;
+	transition: all 0.4s ease-out;
+}
